@@ -1,0 +1,39 @@
+body {
+    background-image: url('../img/anhnen.jpg');
+}
+#myForm {
+    border: 0px solid rebeccapurple;
+    /* border-collapse: collapse; */
+    width: 50%;
+    background-color: rosybrown;
+} 
+#myTable1 {
+    border: 0px solid;
+    width: 90%;
+}
+.td1 {
+    width: 5%;
+}
+.td2 {
+    width: 15%;
+}
+.td3 {
+    width: 9%;
+}
+.td4{
+    width: 20%;   
+}
+.button1 {
+    border: 0px solid;
+    border-radius: 15%;
+    background-color: rgb(126, 245, 102);
+    height: 25px;
+    width: 50px;
+}
+.button2 {
+    border: 0px solid;
+    border-radius: 15%;
+    background-color: rgb(240, 84, 84);
+    height: 25px;
+    width: 50px;
+}

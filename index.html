@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">;
+        <link rel="stylesheet" type="text/css" href="css/css.css">        
+        <title></title>
+    </head>
+    <body> 
+        <center>
+        <h1>
+            <table>
+                <tr>
+                    <td>
+                        Tiên Học Lễ
+                    </td>
+                    <td>
+                        <img src="img/quocky.png">
+                    </td>
+                    <td>
+                        Hậu Học Văn
+                    </td>
+                </tr>
+            </table>
+        </h1>
+        </center>
+        <form>
+        <table id="myForm">
+            <tr>
+                <td>
+                    Họ và Tên:
+                    <input type="text" id="ten">
+                </td>
+                <td colspan="2">    
+                    Ngày sinh:
+                    <input type="text" id="ngaySinh">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Điểm Toán:
+                    <input type="text" id="diemToan">
+                </td>
+                <td>
+                    Điểm Văn:
+                    <input type="text" id="diemVan">
+                </td>
+                <td>
+                    Điểm Anh:
+                    <input type="text" id="diemAnh"><br>
+                </td>
+            </tr>
+        </table>
+        <button class="button1" type="button" id="add" onclick="addStudent()">Thêm</button>
+        <button class="button1" type="button" id="edit" onclick="editStudent()" style="display: none;">Sửa</button>
+        </form><br>
+        <h4>Danh sách học sinh</h4>
+        <table id="myTable1">
+            <tdead id="myTdead1">
+                <tr>
+                    <td class="td1">
+                        STT
+                    </td>
+                    <td class="td2">
+                        Họ và tên
+                    </td>   
+                    <td class="td2">
+                        Ngày sinh
+                    </td>
+                    <td class="td3">
+                        Toán
+                    </td>
+                    <td class="td3">
+                        Văn
+                    </td>
+                    <td class="th3">
+                        Tiếng anh
+                    </td>
+                    <td class="td3">
+                        Trung bình
+                    </td>
+                    <td class="td3">
+                        Xếp loại
+                    </td>
+                    <td class="td4"></td>
+                </tr>
+            </tdead>
+            <tbody id="myTbody1"></tbody>
+        </table>
+
+
+
+    </body>
+    <script src="js/jss.js"></script>
+</html>
